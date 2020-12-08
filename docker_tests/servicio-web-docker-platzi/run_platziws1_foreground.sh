@@ -1,7 +1,7 @@
 #!/bin/bash
 
 ### We should send CURLs to localhost:8000 (80 is just an internal port)
-docker run --rm -p 8000:80 -it -v $PWD/data/src/data  javi/platziws1
+docker run --rm -p 8000:80 -it -v $PWD/data/src/data javi/platziws1
 
 ### We could change the port depending on OS environment variables:
 
