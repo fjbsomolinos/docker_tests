@@ -1,0 +1,5 @@
+pytest
+hug
+gunicorn
+python-json-logger
+requests
